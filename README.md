@@ -5,11 +5,10 @@ Träningspass och övningar sparas lokalt i webbläsaren på enheten som öppnar
 
 ## Installera som Home Assistant-tillägg
 
-Projektet är ett privat repo tills vidare. Home Assistant kan inte hämta ett privat
-GitHub-repo utan autentisering. Kopiera därför mappen `addon/gym-assistant` till
-`/addons/gym-assistant` på Home Assistant och ladda om tilläggsbutiken för att installera
-det som ett lokalt tillägg. Om repot senare görs publikt kan repo-URL:en i stället läggas
-till i tilläggsbutiken.
+Om GitHub-repot är privat kan Home Assistant inte hämta det utan autentisering. Kopiera
+då mappen `addon/gym-assistant` till `/addons/gym-assistant` på Home Assistant och ladda
+om tilläggsbutiken för att installera det som ett lokalt tillägg. Om repot är publikt kan
+repo-URL:en i stället läggas till i tilläggsbutiken.
 
 1. Installera **Gym Assistant** och starta tillägget. Det exponerar webbappen på port `8099`.
 2. Lägg till den som en iframe-panel i `configuration.yaml`:
