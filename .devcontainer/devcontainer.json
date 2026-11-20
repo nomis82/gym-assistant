@@ -1,0 +1,5 @@
+{
+  "name": "Gym Assistant",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "postCreateCommand": "npm --prefix addon/gym-assistant ci"
+}
